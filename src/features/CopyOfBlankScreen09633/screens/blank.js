@@ -24,11 +24,16 @@ export class _Blank extends React.Component {
 
   state = {
     Input_4: "",
-    Input_5: "",
+    Input_5: "7575765765757575676876876868646",
     Datepicker_6: new Date("08/05/2020"),
     Toggle_7: true,
     CheckBox_8: true,
-    Radio_9: true
+    Radio_9: true,
+    Input_2: "7575765765757575676876876868646",
+    Input_4: "7575765765757575676876876868646",
+    Input_5: "7575765765757575676876876868646",
+    Input_6: "7575765765757575676876876868646",
+    Input_7: "7575765765757575676876876868646"
   }
 
   render = () => (
@@ -52,17 +57,13 @@ export class _Blank extends React.Component {
         backgroundColor: "#ffffff",
         fontFamily: "Roboto-Regular",
         flexDirection: "column",
-        flexWrap: "wrap",
+        flexWrap: "nowrap",
         justifyContent: "flex-start",
         alignItems: "stretch",
         alignContent: "stretch",
         borderColor: "#000000",
         borderStyle: "solid",
-        borderWidth: 0,
-        borderLeftWidth: 0,
-        borderRightWidth: 0,
-        borderTopWidth: 0,
-        borderBottomWidth: 0,
+        borderWidth: 2,
         borderRadius: 0,
         backgroundSize: "auto"
       }}
@@ -330,6 +331,176 @@ export class _Blank extends React.Component {
           borderWidth: 2,
           borderRadius: 4
         }}
+      />
+      <Input
+        placeholder="Number Input Placeholder"
+        editable={true}
+        keyboardType="numeric"
+        textStyle={{ fontSize: 12, color: "#000000", textAlign: "left" }}
+        style={{
+          width: "100%",
+          marginLeft: 0,
+          marginRight: 0,
+          marginTop: 5,
+          marginBottom: 5,
+          paddingLeft: 5,
+          paddingRight: 5,
+          paddingTop: 5,
+          paddingBottom: 5,
+          overflow: "visible",
+          textAlign: "left",
+          verticalAlign: "baseline",
+          fontSize: 12,
+          color: "#000000",
+          backgroundColor: "#ffffff",
+          fontFamily: "Roboto-Regular",
+          borderColor: "#000000",
+          borderStyle: "solid",
+          borderWidth: 3,
+          borderRadius: 10,
+          textDecorationLine: "none",
+          textTransform: "none",
+          lineHeight: 40,
+          letterSpacing: 0
+        }}
+        value={this.state.Input_2}
+        onChangeText={nextValue => this.setState({ Input_2: nextValue })}
+      />
+      <Input
+        placeholder="Number Input Placeholder"
+        editable={true}
+        keyboardType="numeric"
+        textStyle={{ fontSize: 12, color: "#000000", textAlign: "left" }}
+        style={{
+          width: "100%",
+          marginLeft: 0,
+          marginRight: 0,
+          marginTop: 5,
+          marginBottom: 5,
+          paddingLeft: 5,
+          paddingRight: 5,
+          paddingTop: 5,
+          paddingBottom: 5,
+          overflow: "visible",
+          textAlign: "left",
+          verticalAlign: "baseline",
+          fontSize: 12,
+          color: "#000000",
+          backgroundColor: "#ffffff",
+          fontFamily: "Roboto-Regular",
+          borderColor: "#000000",
+          borderStyle: "solid",
+          borderWidth: 3,
+          borderRadius: 10,
+          textDecorationLine: "none",
+          textTransform: "none",
+          lineHeight: 40,
+          letterSpacing: 0
+        }}
+        value={this.state.Input_4}
+        onChangeText={nextValue => this.setState({ Input_4: nextValue })}
+      />
+      <Input
+        placeholder="Number Input Placeholder"
+        editable={true}
+        keyboardType="numeric"
+        textStyle={{ fontSize: 12, color: "#000000", textAlign: "left" }}
+        style={{
+          width: "100%",
+          marginLeft: 0,
+          marginRight: 0,
+          marginTop: 5,
+          marginBottom: 5,
+          paddingLeft: 5,
+          paddingRight: 5,
+          paddingTop: 5,
+          paddingBottom: 5,
+          overflow: "visible",
+          textAlign: "left",
+          verticalAlign: "baseline",
+          fontSize: 12,
+          color: "#000000",
+          backgroundColor: "#ffffff",
+          fontFamily: "Roboto-Regular",
+          borderColor: "#000000",
+          borderStyle: "solid",
+          borderWidth: 3,
+          borderRadius: 10,
+          textDecorationLine: "none",
+          textTransform: "none",
+          lineHeight: 40,
+          letterSpacing: 0
+        }}
+        value={this.state.Input_5}
+        onChangeText={nextValue => this.setState({ Input_5: nextValue })}
+      />
+      <Input
+        placeholder="Number Input Placeholder"
+        editable={true}
+        keyboardType="numeric"
+        textStyle={{ fontSize: 12, color: "#000000", textAlign: "left" }}
+        style={{
+          width: "100%",
+          marginLeft: 0,
+          marginRight: 0,
+          marginTop: 5,
+          marginBottom: 5,
+          paddingLeft: 5,
+          paddingRight: 5,
+          paddingTop: 5,
+          paddingBottom: 5,
+          overflow: "visible",
+          textAlign: "left",
+          verticalAlign: "baseline",
+          fontSize: 12,
+          color: "#000000",
+          backgroundColor: "#ffffff",
+          fontFamily: "Roboto-Regular",
+          borderColor: "#000000",
+          borderStyle: "solid",
+          borderWidth: 3,
+          borderRadius: 10,
+          textDecorationLine: "none",
+          textTransform: "none",
+          lineHeight: 40,
+          letterSpacing: 0
+        }}
+        value={this.state.Input_6}
+        onChangeText={nextValue => this.setState({ Input_6: nextValue })}
+      />
+      <Input
+        placeholder="Number Input Placeholder"
+        editable={true}
+        keyboardType="numeric"
+        textStyle={{ fontSize: 12, color: "#000000", textAlign: "left" }}
+        style={{
+          width: "100%",
+          marginLeft: 0,
+          marginRight: 0,
+          marginTop: 5,
+          marginBottom: 5,
+          paddingLeft: 5,
+          paddingRight: 5,
+          paddingTop: 5,
+          paddingBottom: 5,
+          overflow: "visible",
+          textAlign: "left",
+          verticalAlign: "baseline",
+          fontSize: 12,
+          color: "#000000",
+          backgroundColor: "#ffffff",
+          fontFamily: "Roboto-Regular",
+          borderColor: "#000000",
+          borderStyle: "solid",
+          borderWidth: 3,
+          borderRadius: 10,
+          textDecorationLine: "none",
+          textTransform: "none",
+          lineHeight: 40,
+          letterSpacing: 0
+        }}
+        value={this.state.Input_7}
+        onChangeText={nextValue => this.setState({ Input_7: nextValue })}
       />
     </View>
   )
