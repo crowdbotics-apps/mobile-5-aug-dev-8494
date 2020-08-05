@@ -91,8 +91,8 @@ export class _Blank extends React.Component {
           borderRadius: 4,
           textDecorationLine: "none",
           textTransform: "none",
-          lineHeight: 12,
-          letterSpacing: 5
+          lineHeight: 23,
+          letterSpacing: 0
         }}
         onPress={() => alert("Pressed!")}
       >
@@ -121,8 +121,8 @@ export class _Blank extends React.Component {
           borderRadius: 4,
           textDecorationLine: "none",
           textTransform: "none",
-          lineHeight: 12,
-          letterSpacing: 6
+          lineHeight: 23,
+          letterSpacing: 0
         }}
       >
         Sample text content
@@ -154,8 +154,8 @@ export class _Blank extends React.Component {
           borderRadius: 5,
           textDecorationLine: "none",
           textTransform: "none",
-          lineHeight: 12,
-          letterSpacing: 7
+          lineHeight: 30,
+          letterSpacing: 0
         }}
         value={this.state.Input_4}
         onChangeText={nextValue => this.setState({ Input_4: nextValue })}
@@ -188,8 +188,8 @@ export class _Blank extends React.Component {
           borderRadius: 10,
           textDecorationLine: "none",
           textTransform: "none",
-          lineHeight: 12,
-          letterSpacing: 5
+          lineHeight: 40,
+          letterSpacing: 0
         }}
         value={this.state.Input_5}
         onChangeText={nextValue => this.setState({ Input_5: nextValue })}
@@ -218,8 +218,8 @@ export class _Blank extends React.Component {
           borderRadius: 5,
           textDecorationLine: "none",
           textTransform: "none",
-          lineHeight: 12,
-          letterSpacing: 5
+          lineHeight: 6,
+          letterSpacing: 0
         }}
         date={this.state.Datepicker_6}
         onSelect={nextValue => this.setState({ Datepicker_6: nextValue })}
@@ -248,7 +248,7 @@ export class _Blank extends React.Component {
           textDecorationLine: "none",
           textTransform: "none",
           lineHeight: 12,
-          letterSpacing: 7
+          letterSpacing: 0
         }}
         checked={this.state.Toggle_7}
         onChange={nextChecked => this.setState({ Toggle_7: nextChecked })}
@@ -274,8 +274,8 @@ export class _Blank extends React.Component {
           borderRadius: 10,
           textDecorationLine: "none",
           textTransform: "none",
-          lineHeight: 12,
-          letterSpacing: 4
+          lineHeight: 7,
+          letterSpacing: 0
         }}
         checked={this.state.CheckBox_8}
         onChange={nextChecked => this.setState({ CheckBox_8: nextChecked })}
@@ -301,8 +301,8 @@ export class _Blank extends React.Component {
           borderRadius: 10,
           textDecorationLine: "none",
           textTransform: "none",
-          lineHeight: 12,
-          letterSpacing: 5
+          lineHeight: 30,
+          letterSpacing: 0
         }}
         checked={this.state.Radio_9}
         onChange={nextChecked => this.setState({ Radio_9: nextChecked })}
